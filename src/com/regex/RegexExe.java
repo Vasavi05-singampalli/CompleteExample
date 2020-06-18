@@ -12,8 +12,8 @@ public boolean reg1(){
 }
 public class RegexExe{
 	public static void main(String[] args) {
-		Regexcls obj=new Regexcls();
-		//obj.reg1();
-		System.out.println("The content contains Java: "+obj.reg1());
+		Regexcls obj=new Regexcls();		
+		boolean answer=obj.reg1();
+		System.out.println("The content contains Java: "+answer);
 	}
 }
