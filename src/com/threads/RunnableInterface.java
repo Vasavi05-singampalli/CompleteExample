@@ -30,13 +30,13 @@ class RunnableInterface
 {
     public static void main(String args[])
     {
-       Count cnt = new Count();
+       Count cnt = new Count();//object creation
        try
        {
           while(cnt.mythread.isAlive())
           {
             System.out.println("Main thread will be alive till the child thread is live"); 
-            Thread.sleep(1500);
+            Thread.sleep(1500);//pause the thread
           }
        }
        catch(InterruptedException e)
