@@ -1,4 +1,4 @@
-package AutoBoxingUnboxing;
+package com.autoBoxingUnboxing;
 
 class UnboxingExample1
 {

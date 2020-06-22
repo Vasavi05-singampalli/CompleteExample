@@ -1,4 +1,4 @@
-package AutoBoxingUnboxing;
+package com.autoBoxingUnboxing;
 
 public class AutoBoxingEx1 {
 	public static void myMethod(Integer num){
